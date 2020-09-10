@@ -2,7 +2,7 @@
 # Collaborator: Christian Davis ckd5367@psu.edu
 # Collaborator: Samarth Tehri sqt5555@psu.edu
 # Collaborator: Bryce Graf bag5620@psu.edu
-# Section: 1
+# Section: 10
 # Breakout: 3
 
 def run():
@@ -11,8 +11,8 @@ def run():
   grade = getLetterGrade(score)
   print(f"Your letter grade for CMPSC 131 is {grade}.")
 
-def getLetteGrade(n):
-  if n >= 93.0 and n <= 100.0:
+def getLetterGrade(n):
+  if n >= 93.0 and n < 100.0:
     return "A"
   elif n >= 90.0 and n < 93.0:
     return "A-"
